@@ -1,0 +1,45 @@
+public class Protagonist{
+    private String name;
+    private int health;
+    private int strength;
+    private int defense;
+    private double attRating;
+
+    public Protagonist( String nombre ){
+	name = nombre;
+	health = 125;
+	strength = 100;
+	defense = 40;
+	attRating = 0.4;
+    }
+
+    public Boolean isAlive() {
+	return (health > 0);
+    }
+
+    public int getDefense() {
+	return defense;
+    }
+
+    public String getName() {
+	return name;
+    }
+
+    public void lowerHP( int num ) {
+	health = health - num;
+    }
+
+    public void attack( Monster monster ) {
+	int damage = (int) (strength * attRating - monster.getDefense);
+    }
+
+    public void specialize() {
+	defense = defense - 20;
+	attRating = attRating + 20;
+    }
+
+    public void normalize() {
+	defense = 40;
+	attRating = 0.4;
+    }
+}
