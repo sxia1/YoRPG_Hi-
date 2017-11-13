@@ -17,12 +17,12 @@ public class Monster extends Character{
 
     //Methods
     //----------------------------------
-    /*
+
     //attack - calculates the damage the hero takes if the monster attacks
     public int attack( Protagonist protag) {
 	int damage = (int)(strength * attRating - protag.getDefense());
 	protag.lowerHP(damage);
 	return damage;
     }
-    */
-}
+
+}//end class Monster

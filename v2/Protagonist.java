@@ -27,14 +27,15 @@ public class Protagonist extends Character{
     public String getName() { //retrieves the name of the player so it may be used in the dialogue
 	return name;
     }
-    /*
+
     //attack
     public int attack( Monster monster ) {
 	int damage = (int)(strength * attRating - monster.getDefense());
 	monster.lowerHP(damage);
-	return damage; // calculates how much damage the player will do to the monster taking into consideration the player's overall attack power and the monster's defenses
+	return damage;
+	//calculates how much damage the player will do to the monster taking into consideration the player's overall attack power and the monster's defenses
     }
-    */
+
     
     //specialize
     public void specialize() {
