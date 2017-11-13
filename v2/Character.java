@@ -2,7 +2,7 @@
 //Roster: Daniel Jiang, Woosuk Lee, Sophia Xia
 //APCS1 pd1
 //HW30 -- Ye Olde Role Playing Game, Improved
-//2017-11-12
+//2017-11-13
 
 public class Character{
 
@@ -17,8 +17,8 @@ public class Character{
     //----------------------------------
     //isAlive
     public Boolean isAlive() {
-	//Checks to see if the chara is still alive
-	return (health > 0);
+	//Checks to see if the character is still alive
+	return health > 0;
     }
 
     //getDefense
@@ -38,7 +38,8 @@ public class Character{
 	int damage = (int)(strength * attRating - chara.getDefense());
 	chara.lowerHP(damage);
 	return damage;
-	// calculates how much dmg the chara will do to the other chara taking into consideration the chara's overall attack power and the otherchara's defenses
+	// calculates how much dmg the chara will do to the other chara taking into consideration the character's overall attack power 
+	//and the other character's defenses
     }
 
-}//end Character
+}//end class Character
