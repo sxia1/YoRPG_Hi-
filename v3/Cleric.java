@@ -1,22 +1,14 @@
 public class Cleric extends Protagonist {
 
-    private String name;
-
-    public Protagonist(String nombre) {
-	name = nombre;
-	health = 200;
-	strength = 40;
-	defense = 20;
-	attRating = .1;
+    public Cleric(String nombre){
+	super(nombre);
+	health = health + 70;
+	strength = strength - 15;
+	defense = defense - 15;
     }
 
-    public String getName() {
-	return name;
-    }
-
-    public int heal (Protagonist Barbarian, Protagonist Mage) {
-	Barbarian.lowerHP(-40);
-	Mage.lowerHP(-40);
-	return 40;
+    public String about(){
+	health = health + 30;
+	return "Health increased by 30";
     }
 }
