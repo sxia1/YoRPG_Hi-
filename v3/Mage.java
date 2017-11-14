@@ -41,7 +41,7 @@ public class Mage extends Protagonist{
     //normalize
     //returns stats back to normal
     public void normalize(){
-	attRating *= 0.5;
+	attRating = 0.5;
     }//end normalize
     
 }
