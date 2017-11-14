@@ -27,6 +27,7 @@ public class YoRPG
     private int moveCount;
     private boolean gameOver;
     private int difficulty;
+    private int role;
 
     private InputStreamReader isr;
     private BufferedReader in;
@@ -71,6 +72,19 @@ public class YoRPG
 	}
 	catch ( IOException e ) { }
 
+	s = "\nChoose your Role: \n";
+
+	s += "\t1: Mage\n";	
+	s += "\t2: Cleric\n";
+	s += "\t3: Barbarian\n";
+	s += "Selection : ";
+	System.out.print( s );
+
+	try {
+	    role = Integer.parseInt( in.readLine() );
+	}
+	catch (IOException e) { }
+	
 	s = "Intrepid protagonist, what doth thy call thyself? (State your name): ";
 	System.out.print( s );
 
@@ -80,7 +94,16 @@ public class YoRPG
 	catch ( IOException e ) { }
 
 	//instantiate the player's character
-	pat = new Protagonist( name );
+	if (role == 1){
+	    pat = new Mage( name );
+	}
+	else if (role == 2){
+	    pat = new Cleric( name );
+	}
+	else if (role == 3){
+	    pat = new Barbarian( name );
+	}
+	//pat = new Protagonist( name );
 
     }//end newGame()
 
@@ -166,15 +189,14 @@ public class YoRPG
 	int encounters = 0;
 
 	while( encounters < MAX_ENCOUNTERS ) {
-	if ( !game.playTurn() )
-	break;
-	encounters++;
-	System.out.println();
+	    if ( !game.playTurn() )
+		break;
+	    encounters++;
+	    System.out.println();
 	}
 
 	System.out.println( "Thy game doth be over." );
-	/*================================================
-	================================================*/
+
     }//end main
 
 }//end class YoRPG
