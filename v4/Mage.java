@@ -1,3 +1,9 @@
+//Team Hi?
+//Roster: Daniel Jiang, Woosuk Lee, Sophia Xia
+//APCS1 pd1
+//HW32 -- Ye Olde Role Playing Game, Unchained
+//2017-11-14
+
 public class Mage extends Protagonist{
 
     //attributes
@@ -9,7 +15,7 @@ public class Mage extends Protagonist{
     //---------------------------------------
     public Mage(String nombre){
 	super(nombre);
-	mana = 50;
+	mana = 40;
 	strength = 80;
 	defense = 40;
 	attRating = 0.5;
@@ -20,7 +26,7 @@ public class Mage extends Protagonist{
 
     //ABOUT
     //description of the class
-    public static String about(){
+    public String about(){
 	return "Mage: Uses mana to increase attack power while keeping defenses the same. However, mana does run out so use it wisely. A mage has lower strength, but a higher attack rating.";
     }//end about
 

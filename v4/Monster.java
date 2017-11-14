@@ -1,8 +1,8 @@
 //Team Hi?
 //Roster: Daniel Jiang, Woosuk Lee, Sophia Xia
 //APCS1 pd1
-//HW30 -- Ye Olde Role Playing Game, Improved
-//2017-11-12
+//HW32 -- Ye Olde Role Playing Game, Unchained
+//2017-11-14
 
 public class Monster extends Character{
 
