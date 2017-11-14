@@ -2,8 +2,8 @@
  *Team Hi?
  *Roster: Daniel Jiang, Woosuk Lee, Sophia Xia
  *APCS1 pd1
- *HW28 -- Ye Olde Role Playing Game
- *2017-11-08
+ *HW31 -- Ye Olde Role Playing Game, Expanded
+ *2017-11-13
  * class YoRPG -- Driver file for Ye Olde Role Playing Game.
  * Simulates monster encounters of a wandering adventurer.
  * Required classes: Protagonist, Monster

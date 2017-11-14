@@ -1,7 +1,7 @@
 //Team Hi?
 //Roster: Daniel Jiang, Woosuk Lee, Sophia Xia
 //APCS1 pd1
-//HW30 -- Ye Olde Role Playing Game, Improved
+//HW31 -- Ye Olde Role Playing Game, Expanded
 //2017-11-13
 
 public class Character{
