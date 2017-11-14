@@ -4,7 +4,7 @@
 //HW28 -- Ye Olde Role Playing Game, Improved
 //2017-11-12
 
-public class Protagonist extends Character{
+public abstract class Protagonist extends Character{
 
     //Attributes
     //----------------------------------
@@ -38,14 +38,9 @@ public class Protagonist extends Character{
 
     
     //specialize
-    public void specialize() {
-	defense = defense - 20;
-	attRating *= 2;
-    } // Gives the player more offensive power in exchange for being more vulnerable
+    public abstract void specialize();
 
     //normalize
-    public void normalize() {
-	defense = 40;
-	attRating = 0.4;
-    } //returns the player's stats to normal
-}
+    public abstract void normalize();
+
+}//end class Protagonist
