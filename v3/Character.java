@@ -4,7 +4,7 @@
 //HW30 -- Ye Olde Role Playing Game, Improved
 //2017-11-13
 
-public class Character{
+public class abstract Character{
 
     //Attributes
     //----------------------------------
@@ -15,6 +15,16 @@ public class Character{
 
     //Methods
     //----------------------------------
+    
+    //normalize
+    public abstract void normalize();
+
+    //specialize
+    public abstract void specialize();
+
+    //about
+    public abstract String about();
+    
     //isAlive
     public Boolean isAlive() {
 	//Checks to see if the character is still alive
