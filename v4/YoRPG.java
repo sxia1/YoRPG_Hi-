@@ -75,7 +75,7 @@ public class YoRPG
 	s = "\nChoose your Role: \n";
 
 	s += "\t1: Mage\n";	
-	s += "\t2: Cleric\n";
+	s += "\t2: Ninja\n";
 	s += "\t3: Barbarian\n";
 	s += "Selection : ";
 	System.out.print( s );
@@ -98,7 +98,7 @@ public class YoRPG
 	    pat = new Mage( name );
 	}
 	else if (role == 2){
-	    pat = new Cleric( name );
+	    pat = new Ninja( name );
 	}
 	else if (role == 3){
 	    pat = new Barbarian( name );

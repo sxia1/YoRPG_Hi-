@@ -11,8 +11,18 @@ public class Barbarian extends Protagonist{
 	strength = strength + 50;
     }
     
-    public static String about(){
+    public  String about(){
 	return "Defense and Strength are each 50 points higher.";
+    }
+
+    public void specialize(){
+	defense = defense - 60;
+	attRating = attRating * 2;
+    }
+
+    public void normalize(){
+	defense = defense - 60;
+	attRating = attRating / 2;
     }
     
 }
