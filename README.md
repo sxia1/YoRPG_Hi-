@@ -1,3 +1,6 @@
+Team: Hi?
+Roster: Daniel Jiang, Woosuk Lee, Sophia Xia
+
 # YoRPG_Hi-
 
 ##Character
