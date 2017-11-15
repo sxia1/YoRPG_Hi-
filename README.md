@@ -3,7 +3,17 @@ Roster: Daniel Jiang, Woosuk Lee, Sophia Xia
 
 # YoRPG_Hi-
 
-##Character
+## How to Play
+### Beginning
+   After compiling the code and opening it in the terminal, a prompt will appear asking you to choose your difficulty. Choosing the easy option will result in less monster encounters, while picking beowulf will result in more encounters. To select your difficulty, type in the number and hit enter. Make sure to type the appropriate characters. Failiure to do so will exit you out of the game.
+
+### Character Creation
+   Next you will be prompted to choose your role. Listed below is the description for each role you can play. After that, you will be prompted to type the name of your protagonist.
+
+### Game Play
+   Then the game begins, and you will encounter monsters. There are three different types you may encounter. Their details are listed below. You will be asked whether or not you feel lucky. Picking option 1(nay) will make your protagonist do it's defauly attack. Picking option 2(aye) will make your character do it's specialized attack. Once you clear all monster encounters, you will win and exit out of the game. Upon death, you will lose and also exit out of the game.
+
+## Character
 Includes all subclasses of Protagonist and Monster.
 
 ## Protagonist
@@ -23,5 +33,16 @@ Don't let your guard down from their cuteness, they are still ruthless monsters.
 ### Orc
 Orcs are stronger and have higher defense. We pray for your survival.
 
-##YoRPG
+### Undead
+New Monster class under development
+
+## YoRPG
 Where the code for gameplay lies. In other words, what will happen in the terminal when the game is being played.
+
+## Coming Soon in Hopefully a Few Hours
+
+More actions your Character can do upon encounter with a monster.
+Update of health during battle.
+Create different monsters for each encounter based on difficulty.
+Show name of the monster so the player knows what they are fighting.
+Create the possiblity of landing a critical hit based on luck.
