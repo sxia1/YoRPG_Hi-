@@ -1,14 +1,28 @@
 public class Ninja extends Protagonist {
+    
+    private double dodge;
 
     public Ninja(String nombre){
         super(nombre);
-        health = health - 35;
-        strength = strength + 20;
-        defense = defense - 20;
-	attRating = attRating + .4;
+	dodge = .3;
+        health = 90;
+        strength = 125;
+        defense = 15;
+	attRating = 0.7;
 	    }
 
-    public Static String about(){
+    public String about(){
         return "Strong but squishy";
+    }
+    
+    public void specialize(){
+	if (Math.random() <= dodge) {
+	    defense = defense + 100000;
+	}
+	System.out.println("Thou art intangible");
+    }
+
+    public void normalize(){
+	defense = 15;
     }
 }
