@@ -11,21 +11,21 @@ Roster: Daniel Jiang, Woosuk Lee, Sophia Xia
    Next you will be prompted to choose your role. Listed below is the description for each role you can play. After that, you will be prompted to type the name of your protagonist.
 
 ### Game Play
-   Then the game begins, and you will encounter monsters. There are three different types you may encounter. Their details are listed below. You will be asked whether or not you feel lucky. Picking option 1(nay) will make your protagonist do it's defauly attack. Picking option 2(aye) will make your character do it's specialized attack. Once you clear all monster encounters, you will win and exit out of the game. Upon death, you will lose and also exit out of the game.
+   Then the game begins, and you will encounter monsters. There are three different types you may encounter. You will be assigned one at random. Their details are listed below. You will be asked whether or not you feel lucky. Picking option 1(nay) will make your protagonist do its defauly attack. Picking option 2(aye) will make your character do its specialized attack. Once you clear all monster encounters, you will win and exit out of the game. Upon death, you will lose and also exit out of the game.
 
 ## Character
 Includes all subclasses of Protagonist and Monster.
-
+======================================================================
 ## Protagonist
 ### Mage
 Uses mana to increase attack power while keeping defenses the same. However, mana does run out so use it wisely. A mage has lower strength, but a higher attack rating.
 
 ### Barbarian
-Defense and Strength are both very high. Can lower his defense in exchange for double the attack rate when attacking.
+Defense and Strength are both high. Can lower his defense in exchange for double the attack rate when attacking.
 
 ### Ninja
 Has a chance of dodging (becoming intangible) the Monster's next attack. Defense is much lower and attack rate is very high.
-
+=======================================================================
 ## Monsters
 ### Slime
 Don't let your guard down from their cuteness, they are still ruthless monsters. Their health is 30 points higher. All other stats are pretty average.
@@ -38,7 +38,7 @@ Zombies have a lot more health and are much tankier than the other monsters. How
 
 ## YoRPG
 Where the code for gameplay lies. In other words, what will happen in the terminal when the game is being played.
-
+=======================================================================
 ## Coming Soon in Hopefully a Few Hours
 
 More actions your Character can do upon encounter with a monster.
