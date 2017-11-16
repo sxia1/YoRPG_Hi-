@@ -6,16 +6,16 @@ Roster: Daniel Jiang, Woosuk Lee, Sophia Xia
 
 ## How to Play
 ### Beginning
-   After compiling the code and opening it in the terminal, a prompt will appear asking you to choose your difficulty. Choosing the easy option will result in less monster encounters, while picking beowulf will result in more encounters. To select your difficulty, type in the number and hit enter. Make sure to type the appropriate characters. Failure to do so will exit you out of the game.
+After compiling the code and opening it in the terminal, a prompt will appear asking you to choose your difficulty. Choosing the easy option will result in less monster encounters, while picking beowulf will result in more encounters. To select your difficulty, type in the number and hit enter. Make sure to type the appropriate characters. Failure to do so will exit you out of the game.
 
 ### Character Creation
-   Next you will be prompted to choose your role. Listed below is the description for each role you can play. After that, you will be prompted to type the name of your protagonist.
+Next you will be prompted to choose your role. Listed below is the description for each role you can play. After that, you will be prompted to type the name of your protagonist.
 
 ### Game Play
-   When the game begins, you will encounter monsters. There are three different types you may encounter. You will be assigned one at random. Their details are listed below. You will be asked whether or not you feel lucky. Picking option 1(nay) will make your protagonist do its default attack. Picking option 2(aye) will make your character do its specialized attack. Once you clear all monster encounters, you will win and exit out of the game. Upon death, you will lose and also exit out of the game.
+When the game begins, you will encounter monsters. There are three different types you may encounter. You will be assigned one at random. Their details are listed below. You will be asked whether or not you feel lucky. Picking option 1(nay) will make your protagonist do its default attack. Picking option 2(aye) will make your character do its specialized attack. Once you clear all monster encounters, you will win and exit out of the game. Upon death, you will lose and also exit out of the game.
 
 ### Updates
-    You will now be able to view your health as the battle progresses. The type of monster you encounter is also viewable now.
+You will now be able to view your health as the battle progresses. The type of monster you encounter is also viewable now.
 
 ## Character
 Includes all subclasses of Protagonist and Monster.
