@@ -7,8 +7,8 @@
 public class Barbarian extends Protagonist{
     public Barbarian( String nombre ){
 	super(nombre);
-	defense = defense + 50;
-	strength = strength + 50;
+	defense = defense + 25;
+	strength = strength + 20;
     }
     
     public  String about(){
