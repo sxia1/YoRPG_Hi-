@@ -1,10 +1,10 @@
 //Team Hi?
 //Roster: Daniel Jiang, Woosuk Lee, Sophia Xia
 //APCS1 pd1
-//HW32 -- Ye Olde Role Playing Game, Unchained
-//2017-11-14
+//HW32 -- Ye Olde Role Playing Game, Realized
+//2017-11-15
 
-public class Monster extends Character{
+public abstract class Monster extends Character{
 
     //Constructor - sets the default stats of the monster
     //----------------------------------
@@ -24,5 +24,8 @@ public class Monster extends Character{
 	protag.lowerHP(damage);
 	return damage;
     }
+
+    //getName
+    public abstract String getName();
 
 }//end class Monster

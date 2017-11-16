@@ -15,7 +15,7 @@ public class Mage extends Protagonist{
     //---------------------------------------
     public Mage(String nombre){
 	super(nombre);
-	mana = 50;
+	mana = 100;
 	strength = 70;
 	defense = 40;
 	attRating = 0.5;

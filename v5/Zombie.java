@@ -1,5 +1,7 @@
 public class Zombie extends Monster{
 
+    private String name = "Zombie";
+    
     public Zombie(){
 	super();
 	health = 300;
@@ -10,6 +12,10 @@ public class Zombie extends Monster{
 
     public static String about(){
 	return "Slow but tanky";
+    }
+
+    public String getName(){
+	return name;
     }
     
 }

@@ -3,7 +3,7 @@
  *Roster: Daniel Jiang, Woosuk Lee, Sophia Xia
  *APCS1 pd1
  *HW32 -- Ye Olde Role Playing Game, Realized
- *2017-11-14
+ *2017-11-15
  * class YoRPG -- Driver file for Ye Olde Role Playing Game.
  * Simulates monster encounters of a wandering adventurer.
  * Required classes: Protagonist, Monster
@@ -118,14 +118,21 @@ public class YoRPG
     {
 	int i = 1;
 	int d1, d2;
-
+	
 	if ( Math.random() >= ( difficulty / 3.0 ) )
 	    System.out.println( "\nNothing to see here. Move along!" );
 	else {
-	    System.out.println( "\nLo, yonder monster approacheth!" );
-
-	    smaug = new Monster();
-
+	    if ( (int)((Math.random()*3)+1) == 1 ){
+		smaug = new Slime();
+	    }
+	    else if ( (int)((Math.random()*3)+1) == 2 ){
+		smaug = new Orc();
+	    }
+	    else {
+		smaug = new Zombie();
+	    }
+	    System.out.println( "\nLo, yonder " + smaug.getName() + " approacheth!" );
+	    
 	    while( smaug.isAlive() && pat.isAlive() ) {
 
 		// Give user the option of using a special attack:
@@ -149,8 +156,7 @@ public class YoRPG
 		System.out.println( "\n" + pat.getName() + " dealt " + d1 +
 				    " points of damage.");
 
-		System.out.println( "\n" + "Ye Olde Monster smacked " + pat.getName() +
-				    " for " + d2 + " points of damage.");
+		System.out.println( "\n" + "Ye Olde " + smaug.getName() + " smacked " + pat.getName() + " for " + d2 + " points of damage.");
 	    }//end while
 
 	    //option 1: you & the monster perish

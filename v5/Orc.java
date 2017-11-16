@@ -6,14 +6,20 @@
 
 public class Orc extends Monster{
 
+    private String name = "Orc";
+    
     public Orc(){
 	super();
 	strength = strength + 15;
 	defense = defense + 15;
     }
-
+    
     public static String about(){
 	return "Orcs are stronger and have higher defense";
+    }
+
+    public String getName(){
+	return name;
     }
     
 }//end class Orc
