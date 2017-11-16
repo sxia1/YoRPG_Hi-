@@ -23,7 +23,7 @@ Uses mana to increase attack power while keeping defenses the same. However, man
 ### Barbarian
 Defense and Strength are both very high. Can lower his defense in exchange for double the attack rate when attacking.
 
-### Ninga
+### Ninja
 Has a chance of dodging (becoming intangible) the Monster's next attack. Defense is much lower and attack rate is very high.
 
 ## Monsters
