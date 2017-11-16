@@ -30,6 +30,9 @@ public class Character{
     //lowerHP
     protected void lowerHP( int num ) {
 	//Used to lower the char's health if they be damaged
+	if (num < 0){
+	    num = 0;
+	}
 	health = health - num;
     }
 
