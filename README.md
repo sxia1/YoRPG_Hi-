@@ -34,7 +34,7 @@ Don't let your guard down from their cuteness, they are still ruthless monsters.
 Orcs are stronger and have higher defense. We pray for your survival.
 
 ### Zombies
-Zombies have a lot more health and are much tankier than the other monsters. However, due to rigor mortis, they are also have less attack weaker and are much slower.
+Zombies have a lot more health and are much tankier than the other monsters. However, due to rigor mortis, they are also much weaker.
 
 ## YoRPG
 Where the code for gameplay lies. In other words, what will happen in the terminal when the game is being played.
