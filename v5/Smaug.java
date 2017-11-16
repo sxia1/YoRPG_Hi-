@@ -10,7 +10,7 @@ public class Smaug extends Monster {
 	attRating = 1.5;
     }
 
-    public status String about(){
+    public static String about(){
 	return "Come now, don't be shy... step into the light";
     }
 

@@ -128,8 +128,11 @@ public class YoRPG
 	    else if ( (int)((Math.random()*3)+1) == 2 ){
 		smaug = new Orc();
 	    }
-	    else {
+	    else if (Math.random() > 0.5){
 		smaug = new Zombie();
+	    }
+	    else {
+		smaug = new Smaug();
 	    }
 	    System.out.println( "\nLo, yonder " + smaug.getName() + " approacheth!" );
 	    
