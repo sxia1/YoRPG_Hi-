@@ -28,6 +28,11 @@ public abstract class Protagonist extends Character{
 	return name;
     }
 
+    //getHealth
+    public int getHealth(){
+	return health;
+    }
+    
     //attack
     public int attack( Monster monster ) {
 	int damage = (int)(strength * attRating - monster.getDefense());
