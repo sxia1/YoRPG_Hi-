@@ -21,10 +21,10 @@ public abstract class Monster extends Character{
     //attack - calculates the damage the hero takes if the monster attacks
     public int attack( Protagonist protag) {
 	int damage = (int)(strength * attRating - protag.getDefense());
-	protag.lowerHP(damage);
 	if (damage < 0){
 	    damage = 0;
 	}
+	protag.lowerHP(damage);
 	return damage;
     }
 

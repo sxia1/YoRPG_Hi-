@@ -15,10 +15,10 @@ public class Mage extends Protagonist{
     //---------------------------------------
     public Mage(String nombre){
 	super(nombre);
-	mana = 100;
-	strength = 70;
+	mana = 150;
+	strength = 80;
 	defense = 40;
-	attRating = 0.5;
+	attRating = 0.6;
     }
 
     //Methods
@@ -36,7 +36,7 @@ public class Mage extends Protagonist{
     public void specialize(){
 	if (mana - 10 > 0){
 	    mana = mana - 10;
-	    attRating = 1.0;
+	    attRating = 1.2;
 	}
 	else {
 	    System.out.println("Ye hath no more mana");
@@ -47,7 +47,7 @@ public class Mage extends Protagonist{
     //normalize
     //returns stats back to normal
     public void normalize(){
-	attRating = 0.5;
+	attRating = 0.6;
     }//end normalize
     
 }//end class Mage
